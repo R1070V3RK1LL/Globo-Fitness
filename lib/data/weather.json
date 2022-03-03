@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 3.8772,
+        "lat": 43.6109
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 284.8,
+        "feels_like": 283.9,
+        "temp_min": 283.86,
+        "temp_max": 287.96,
+        "pressure": 1015,
+        "humidity": 72
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.09,
+        "deg": 130
+    },
+    "clouds": {
+        "all": 0
+    },
+    "dt": 1646304820,
+    "sys": {
+        "type": 2,
+        "id": 2038454,
+        "country": "FR",
+        "sunrise": 1646288295,
+        "sunset": 1646328901
+    },
+    "timezone": 3600,
+    "id": 2992166,
+    "name": "Montpellier",
+    "cod": 200
+}
