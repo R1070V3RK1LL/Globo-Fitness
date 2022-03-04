@@ -14,10 +14,13 @@ class GlobeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(primarySwatch: Colors.blueGrey),
+      theme: ThemeData(
+          brightness: Brightness.dark,
+          primaryColor: Color(0xFF000000),
+          accentColor: Color(0xFFFF9800)),
       routes: {
         '/': (context) => IntroScreen(),
-        '/bmi': (context) => BmiScreen(),
+        '/BMI': (context) => BmiScreen(),
       },
       initialRoute: '/',
     );

@@ -37,6 +37,17 @@ class _SessionsScreenState extends State<SessionsScreen> {
           onPressed: () {
             showSessionDialog(context);
           }),
+          persistentFooterButtons: <Widget>[
+            IconButton(icon: Icon(Icons.add_comment),
+            onPressed: (){},
+            ),
+            IconButton(icon: Icon(Icons.add_alarm),
+            onPressed: (){},
+            ),
+            IconButton(icon: Icon(Icons.add_location),
+            onPressed: (){},
+            )
+          ],
     );
   }
 
